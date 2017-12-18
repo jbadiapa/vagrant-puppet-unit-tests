@@ -8,6 +8,10 @@ It's very helpfull to develop them.
 ```
 
 To enable the debug on console drop the following lines 
- Puppet::Util::Log.level = :debug
- Puppet::Util::Log.newdestination(:console)
+
+```
+Puppet::Util::Log.level = :debug
+Puppet::Util::Log.newdestination(:console)
+```
+
 into puppet-tripleo/spec/spec_helper.rb
